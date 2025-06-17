@@ -14,3 +14,11 @@ El repositorio también se debe limpiar de vez en cuando para que no se sobresat
   
 La configuración en el momento presente de la subida de los ficheros es el siguiente:  
 ![Img Encryption](./img/encryption.png)
+
+## Credenciales
+
+Para acceder al bot se usa la siguiente configuración (tanto para Google como GitHub):
+- Email: roblocklly@gmail.com
+- Constraseña (encriptada): xoo5758bUEOFNO\b}7U58
+  
+Para acceder a la contraseña, use el mismo desencriptador que contine el proyecto de Unity
