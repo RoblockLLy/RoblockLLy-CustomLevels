@@ -1,0 +1,825 @@
+{
+  "environment": {
+    "skybox": "Cyberspace",
+    "level_name": "Everything",
+    "user_name": "John RoblockLLy",
+    "dev_minutes": 0,
+    "dev_seconds": 0,
+    "dev_blocks": 0
+  },
+  "spawnpoints": [
+    {
+      "name": "Spawnpoint 0",
+      "position": "(1.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 1.00000, 0.00000, 0.00000)",
+      "options": []
+    }
+  ],
+  "flags": [
+    {
+      "name": "Flag 0",
+      "position": "(5.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Timed": "False"
+        },
+        {
+          "Seconds for win": "0"
+        }
+      ]
+    }
+  ],
+  "level": [
+    {
+      "name": "Full Block 0",
+      "position": "(1.00, 1.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 1",
+      "position": "(2.00, 1.00, 1.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 2",
+      "position": "(2.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 3",
+      "position": "(2.00, 1.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 4",
+      "position": "(4.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 5",
+      "position": "(4.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 6",
+      "position": "(4.00, 1.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 7",
+      "position": "(4.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Lifting Door 0",
+      "position": "(3.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Pressure Plate 0",
+      "position": "(2.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Lifting Door 0": "Toggle"
+        }
+      ]
+    },
+    {
+      "name": "Lifting Door 1",
+      "position": "(2.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.70711, 0.00000, 0.70711)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Pressure Plate 1",
+      "position": "(1.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Lifting Door 1": "Toggle"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 8",
+      "position": "(1.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Corner Path 9",
+      "position": "(1.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 10",
+      "position": "(2.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.70711, 0.00000, -0.70711)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Corner Path 11",
+      "position": "(3.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 1.00000, 0.00000, 0.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 12",
+      "position": "(3.00, 1.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Corner Path 13",
+      "position": "(3.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.70711, 0.00000, 0.70711)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 14",
+      "position": "(2.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.70711, 0.00000, -0.70711)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Corner Path 15",
+      "position": "(3.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.70711, 0.00000, 0.70711)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 16",
+      "position": "(3.00, 1.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 17",
+      "position": "(3.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 18",
+      "position": "(3.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Corner Path 19",
+      "position": "(3.00, 1.00, 1.00)",
+      "rotation": "(0.00000, 0.70711, 0.00000, -0.70711)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 20",
+      "position": "(4.00, 1.00, 1.00)",
+      "rotation": "(0.00000, 0.70711, 0.00000, -0.70711)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Corner Path 21",
+      "position": "(5.00, 1.00, 1.00)",
+      "rotation": "(0.00000, 1.00000, 0.00000, 0.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 22",
+      "position": "(5.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 23",
+      "position": "(5.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 24",
+      "position": "(5.00, 1.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Straight Path 25",
+      "position": "(5.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 26",
+      "position": "(0.00, 1.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 27",
+      "position": "(0.00, 1.00, 1.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 28",
+      "position": "(0.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 29",
+      "position": "(0.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 30",
+      "position": "(0.00, 1.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 31",
+      "position": "(0.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 32",
+      "position": "(0.00, 1.00, 6.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 33",
+      "position": "(1.00, 1.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 34",
+      "position": "(1.00, 0.00, 1.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 35",
+      "position": "(1.00, 0.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 36",
+      "position": "(1.00, 0.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 37",
+      "position": "(1.00, 0.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 38",
+      "position": "(1.00, 0.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 39",
+      "position": "(1.00, 1.00, 6.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 40",
+      "position": "(2.00, 1.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 41",
+      "position": "(2.00, 0.00, 1.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 42",
+      "position": "(2.00, 0.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 43",
+      "position": "(2.00, 0.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 44",
+      "position": "(2.00, 0.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 45",
+      "position": "(2.00, 0.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 46",
+      "position": "(2.00, 1.00, 6.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 47",
+      "position": "(3.00, 1.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 48",
+      "position": "(3.00, 0.00, 1.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 49",
+      "position": "(3.00, 0.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 50",
+      "position": "(3.00, 0.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 51",
+      "position": "(3.00, 0.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 52",
+      "position": "(3.00, 0.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 53",
+      "position": "(3.00, 1.00, 6.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 54",
+      "position": "(4.00, 1.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 55",
+      "position": "(4.00, 0.00, 1.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 56",
+      "position": "(4.00, 0.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 57",
+      "position": "(4.00, 0.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 58",
+      "position": "(4.00, 0.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 59",
+      "position": "(4.00, 0.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 60",
+      "position": "(4.00, 1.00, 6.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 61",
+      "position": "(5.00, 1.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 62",
+      "position": "(5.00, 0.00, 1.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 63",
+      "position": "(5.00, 0.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 64",
+      "position": "(5.00, 0.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 65",
+      "position": "(5.00, 0.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 66",
+      "position": "(5.00, 0.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 67",
+      "position": "(5.00, 1.00, 6.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 68",
+      "position": "(6.00, 1.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 69",
+      "position": "(6.00, 1.00, 1.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 70",
+      "position": "(6.00, 1.00, 2.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 71",
+      "position": "(6.00, 1.00, 3.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 72",
+      "position": "(6.00, 1.00, 4.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "Black"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 73",
+      "position": "(6.00, 1.00, 5.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    },
+    {
+      "name": "Full Block 74",
+      "position": "(6.00, 1.00, 6.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "options": [
+        {
+          "Color": "White"
+        }
+      ]
+    }
+  ]
+}
